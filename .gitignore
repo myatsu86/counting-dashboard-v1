@@ -1,0 +1,66 @@
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform lock file (keep if you want reproducible builds)
+# Uncomment the next line if you want to ignore it
+# .terraform.lock.hcl
+
+# =========================
+# Variables & Secrets
+# =========================
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =========================
+# CLI Configuration Files
+# =========================
+.terraformrc
+terraform.rc
+
+# =========================
+# Sensitive Files
+# =========================
+*.pem
+*.key
+*.pub
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# Python (if using scripts)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
